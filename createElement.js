@@ -10,7 +10,7 @@ function createHeader(element) {
     logoLink.href = "/";
   
     let imgLogo = document.createElement("img");
-    imgLogo.src = "./images/logo.svg";
+    imgLogo.src = "darklogo.png";
   
     let headerLinks = document.createElement("nav");
     headerLinks.classList.add("header-links");
@@ -131,7 +131,7 @@ function createHeader(element) {
   
     let imgLogo = document.createElement("img");
     logoLink.classList.add("footer__logo-image");
-    imgLogo.src = "./images/logo_footer.svg";
+    imgLogo.src = "White logo.png";
   
     let footerLinks = document.createElement("nav");
     footerLinks.classList.add("footer-links");
