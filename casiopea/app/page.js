@@ -17,8 +17,9 @@ export default function Home() {
           >
             By{" "}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
+              class="logo__image"
+              src="/images/logo.svg" 
+              alt="Логотип Pindie"
               className={styles.vercelLogo}
               width={100}
               height={24}
