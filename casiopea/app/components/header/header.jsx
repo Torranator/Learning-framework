@@ -1,5 +1,8 @@
+import styles from "./Header.module.css"
+
 export const Header = () => {
     return (
+        <section className={styles["header"]}>
         <header className="header">
           <a hfer="./index.html" className="logo">
             <img className="logo__image" src="./logo.svg" alt="logo"/>
@@ -30,5 +33,6 @@ export const Header = () => {
             </div>
           </nav>
         </header>
+        </section>
     );
 }

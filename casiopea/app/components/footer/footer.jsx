@@ -1,5 +1,8 @@
+import styles from "./Footer.module.css"
+
 export const Footer = () => {
     return (
+        <section className={styles["footer"]}>
         <footer>
           <a href="./index.html" className="footer__logo">
             <span className="footer__logo-name">pindie</span><span className="footer__logo-copy">, XXI век</span>
@@ -16,5 +19,6 @@ export const Footer = () => {
             </li>
           </ul>
         </footer>
+        </section>
     );
 }
