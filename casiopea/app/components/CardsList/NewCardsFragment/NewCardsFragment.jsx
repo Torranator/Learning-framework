@@ -3,6 +3,11 @@ import styles from "./newCardsFragment.module.css"
 export const NewCardsFragment = () => {
     return (
         <section className={styles["NewCardsFragment"]}>
+        <section className="list-section">
+        <h2 className="list-section__title" id="new">
+          Новинки
+        </h2>
+        </section>
         <ul className="cards-list">
           <li className="cards-list__item">
             <a href="/game-id.html" className="card-list__link">

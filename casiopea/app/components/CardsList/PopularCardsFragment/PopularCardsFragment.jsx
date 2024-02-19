@@ -3,6 +3,11 @@ import styles from "./PopularCardsFragment.module.css"
 export const PopularCardsFragment = () => {
     return (
         <section className={styles["PopularCardsFragment"]}>
+        <section className="list-section">
+        <h2 className="list-section__title" id="popular">
+          Популярное
+        </h2>
+        </section>
         <ul className="cards-list">
           <li className="cards-list__item">
             <a href="/game-id.html" className="card-list__link">
